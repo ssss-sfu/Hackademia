@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title> Tic Tac Toe </title>
+
+        <link rel="stylesheet" href="index.css">
+        <script src="tictactoe.js"></script>
+    </head>
+    <body> 
+        <h1> Hello, World! </h1>
+        <p> This is a paragraph! </p>
+        <a href="https://www.google.com/"> This is a link! </a>
+        <img id="pika" onclick="onPikaClicked()" src="Surprised_Pikachu.jpg">
+
+        <div id="bigdiv">
+
+            <div id="row">
+                <div id="0" onclick="squareClicked(0)" class="square"></div>
+                <div id="1" onclick="squareClicked(1)" class="square"></div> 
+                <div id="2" onclick="squareClicked(2)" class="square"></div> 
+            </div>
+            <div id="row">
+                <div id="3" onclick="squareClicked(3)" class="square"></div> 
+                <div id="4" onclick="squareClicked(4)" class="square"></div> 
+                <div id="5" onclick="squareClicked(5)" class="square"></div> 
+            </div>
+            <div id="row">
+                <div id="6" onclick="squareClicked(6)" class="square"></div> 
+                <div id="7" onclick="squareClicked(7)" class="square"></div> 
+                <div id="8" onclick="squareClicked(8)" class="square"></div> 
+            </div>
+
+            <div>
+                <p id="status">  
+                    <span id="turn">X</span>
+                    's turn
+                </p>
+            </div>
+
+        </div>
+    </body>
+</html>

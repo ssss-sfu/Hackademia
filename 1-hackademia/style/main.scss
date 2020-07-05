@@ -1,0 +1,218 @@
+/* 
+
+    Background Color: #202126;
+    Background Accent: #2E2F34;
+
+    Theme Color Bright: #BD5633;
+    Theme Color Muted: #A36045;
+
+    Theme Green Color: #009C5E;
+
+    Font Titles: 'Roboto Slab', serif;
+    Font Text: 'Open Sans', sans-serif;
+
+*/
+
+*{
+    transition: 0.5s;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    color: white;
+    background-color: #202126;
+}
+
+img { 
+    width: 100%; 
+}
+
+::-webkit-scrollbar {
+    background-color: #2E2F34;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #009C5E;
+}
+
+
+/* SIDE BAR */
+
+    #sidebar {
+        width: 100px;
+        height: 100vh;
+        position: fixed;
+        z-index: 1001;
+
+        border-right: 1px solid #35363B; 
+    }
+
+        .sidebar-squares {
+            width: 100px;
+            height: 60px;
+            text-align: center;
+            padding-top: 30px;
+        } .sidebar-squares:hover {
+            background-color: #2E2F34;
+        }
+
+        .sidebar-icons {
+            color: white;
+        }
+
+    #hamburger {
+        text-align: center;
+        border-bottom: 1px solid #35363B;
+    }
+
+        .hamburger-accent { 
+            background-color: #2E2F34;
+        }
+
+    #social-media {
+        position: fixed;
+        top: 50%;
+        transform: translate( 0%, -50% ); /* offsets position percent change */ 
+    }
+
+
+
+/* NAV BAR */
+
+    #navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 90px;
+
+        z-index: 1000;
+        background-color: #202126;
+
+        font-family: 'Roboto Slab', serif;
+    }
+
+        #nav-left {
+            width: 50%;
+            float: left;
+        }
+
+            #nav-left > h1 {
+                padding-left: 150px;
+                line-height: 89px;
+            }
+
+        #nav-right {
+            width: 50%;
+            float: right;
+        }
+
+            .nav-right-a {
+                margin: 10px;
+                padding: 5px;
+                color: white;
+                text-decoration: none;
+                line-height: 89px;
+                border-bottom: 3px solid transparent;
+            } .nav-right-a:hover {
+                border-bottom: 3px solid rgba(0, 156, 94, 0.801);
+            }
+
+            .nav-active {
+                border-bottom: 3px solid #009C5E;
+            }
+
+
+        
+/* BODY */
+
+#body {
+    padding: 150px;
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* MAIN */
+
+    #main {
+        width: 75%;
+        float: left;
+    }
+
+    #hero {
+        padding-right: 30px;
+    }
+
+        #hero > h4 {
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        #hero > h1 {
+            font-size: 3em;
+            padding-bottom: 30px;
+        }
+
+        #hero > p {
+            width: 50%;
+        }
+
+    #info {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    #event {
+        float: left;
+        width: 300px;
+    }
+
+    #event-title {
+        padding: 25px 0;
+    }
+
+    #event-description {
+        padding: 25px 0;
+    }
+
+    #specialpic {
+        width: 0;
+        float: right;
+        position: relative;
+        left: -60%;
+        top: -200px;
+    }
+
+    #specialpicid {
+        width: 500px;
+    }
+
+    /* The simple method of doing it (that works in most browsers), is that you make your main wrapper have position:relative, and the make the div (that you want to flow outside) have position: absolute; left: -25px; top: -25px;. */
+
+
+
+/* NEWS */
+
+    #news {
+        width: 25%;
+        float: right;
+    }
+
+
+        #news-title {
+            padding-bottom: 25px;
+        }
+
+        .news-briefs {
+            padding: 25px;
+        }
+
+        .news-briefs:hover {
+            background-color: #2E2F34;
+        }
+
+        .news-links {
+            color: #009C5E;
+        } .news-links:hover {
+            padding-left: 10px;
+        }

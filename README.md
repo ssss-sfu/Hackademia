@@ -1,18 +1,6 @@
 Welcome to Hackademia, a new event that combines hackathon, coding challenge, and creative elements into a week long thingy. 
 
-# Class 1 : Web Development
+Index and the main folder goes over the instructional as well as information to help you get going with web development
+Hackademia and env-sci are UI based websites to help you with css and even sass
+tictactoe is a pure javascript dom version to understand how javascript is written, and how it can be used to change content and styles.
 
-Development 
-
-w3school - Introductory Guides to creating things with HTML, CSS, JS, and much more. 
-developer.mozilla.org - Advanced Guides to specific and complex components of web dev. 
-f12 developer tools - Used to debug, test, and explore websites inner workings. 
-
-Design 
-
-Instagram - Great Resource for design inspiration, tutorials, and helpful tips and tricks. 
-Dribbble - Website specifically to showcase digital designs and creations.
-Awwwards - Website specifically to showcase and rank websites that are fully developed and designed. 
-
-Google Material.IO Color Tool - Easy to use Color Picker. 
-Google Fonts - Massive Library of popular fonts. 

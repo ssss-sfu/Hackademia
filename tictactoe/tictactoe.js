@@ -1,11 +1,4 @@
-
-
 console.log("hi ssss");
-
-
-
-
-
 
 function onPikaClicked() {
     alert("Oh wow!");
